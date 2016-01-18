@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+/*NAVIGATION*/
+nav {
+  text-align: center;
+  background-color: rgb(124, 187, 252);
+}
+nav a {
+  text-decoration: none;
+  margin:0 auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+/*MODAL*/
+div .modal-content {
+  max-width: 1100px;
+  margin:0 auto;
+}
+/*PHOTOS IN MODAL*/
+#container {
+  height:500px;
+  width:1100px;"
+}
+#theTarget {
+  padding-left: 300px;"
+}
+#animatedModal {
+  /*margin-left: 20px;*/
+}
