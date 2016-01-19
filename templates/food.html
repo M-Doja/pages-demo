@@ -11,69 +11,258 @@
     <link rel="stylesheet" href="./../CSS/skipper.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <!-- Lobster font -->
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <!-- default css -->
     <link rel="stylesheet" href="./../CSS/site.css">
-    <title>Tracker</title>
+    <title>Pages-Demo</title>
   </head>
-  <body>
+  <body style="background-color:black">
     <div class="container-fluid animsition" data-animsition-out-class="fade-in-left"
     data-animsition-out-duration="2000">
-      <!-- banner -->
-    <div class="row">
-      <div class="col-md-12">
-        <div class="jumbotron">
-          <h1>Grub House</h1>
-        </div>
-      </div>
-    </div>
 
       <!-- navigation -->
       <div class="row" >
-        <div class="col-md-12 animsition">
-          <nav>
-            <a
+        <div class="col-md-12 animsition" style="text-align:center;">
+          <div>
+            <a style="text-decoration: none;"
               href="./../index.html"
               class="animsition-link"
               data-animsition-out-class="fade-out-down"
               data-animsition-out-duration="2000"
               data-animsition-in-class="fade-in-down"
               data-animsition-in-duration="2000"
-                >Home</a>
-            <a
+                ><p class='navText' >Home</p></a>
+            <a style="text-decoration: none;"
               href="./../templates/blog.html"
               class="animsition-link"
               data-animsition-out-class="fade-out-down"
               data-animsition-out-duration="2000"
               data-animsition-in-class="fade-in-down"
               data-animsition-in-duration="2000"
-                >Blog</a>
-            <a
+                ><p class='navText' >Blog</p></a>
+            <a style="text-decoration: none;"
               href="./../templates/food.html"
               class="animsition-link"
               data-animsition-in-class="fade-in"
               data-animsition-in-duration="2000"
               data-animsition-out-class="fade-out"
               data-animsition-out-duration="2000"
-                >Food</a>
-            <a
+                ><p class='navText' >Food</p></a>
+            <a style="text-decoration: none;"
               href="./../templates/shop.html"
               class="animsition-link"
               data-animsition-out-class="fade-out-down"
               data-animsition-out-duration="2000"
               data-animsition-in-class="fade-in-down"
               data-animsition-in-duration="2000"
-                >Shop</a>
-            <a
+                ><p class='navText' >Shop</p></a>
+            <a style="text-decoration: none;"
               href="./../templates/chat.html"
               class="animsition-link"
               data-animsition-out-class="fade-out-down"
               data-animsition-out-duration="2000"
               data-animsition-in-class="fade-in-down"
               data-animsition-in-duration="2000"
-                >Chat</a>
-          </nav>
+                ><p class='navText' >Chat</p></a>
+          </div>
         </div>
       </div>
+
+      <!-- banner -->
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="jumbotron">
+          <img src="./../img/meat.jpg" style="max-width:100%"alt="" />
+        </div>
+          <h1 id='restName' style="font-family:Lobster;text-align:center;color: rgba(255,25,25,0.7);">Le Chateau Phoja</h1>
+      </div>
+      <h1 style="font-family:Lobster;text-align:center;color: rgba(255,25,25,0.7);margin-top:600px;margin-bottom:40px;">Le Chateau Phoja  ~  Gourmet Foods</h1>
+    </div>
+
+
+<!-- sidenav -->
+<div class="push" style="margin-bottom:40px;text-align:center;margin:0 auto;">
+  <a href="#menu"  class="menu-link">Menu</a>
+  <a href="#menu"  class="menu-link">About Us</a>
+  <a href="#menu"  class="menu-link">Events</a>
+  <div style="height:1px;background-color:white;max-width:100%"></div>
+
+<nav style="z-index:999;background-color:#666"id="menu" class="panel toggle"  role="navigation">
+<ul id="menuBtn"style="list-style: none;">
+  <h3 style="font-family:Lobster;text-align:center;color: rgba(255,25,25,0.7);background-color:black;padding:5px;">Le Chateau Phoja</h3>
+<li><a id="link"style='background-color:black;color:white;' class="btn btn-default" data-toggle="modal" data-target="#myModal1">Appetizers</a><br></li>
+<li><a style='background-color:black;color:white' type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2">Salads</a><br></li>
+<li><a style='background-color:black;color:white' type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3">Entrees</a><br></li>
+<li><a style='background-color:black;color:white' type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal4">Sides</a><br></li>
+<li><a style='background-color:black;color:white' type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal5">Dessert</a><br></li>
+<li><a style='background-color:black;color:white' type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal6">Beverages</a><br></li>
+</ul>
+<p style="font-family:serif;font-size:26px;color:white;padding:5px;">
+  Don't forget to make reservations!<br>(805) 555-5555
+</p>
+<p style="color:white;">
+  Business Hrs: M-F 10a - 9p / Sat 2p -Midnight / Sun - Closed
+</p>
+</nav>
+
+
+
+<div class="row">
+  <div class="col-md-6">
+        <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Open Modal #1</button><br> -->
+
+    <!-- Modal 1 Appetizers-->
+    <div id="myModal1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Modal #1 Here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Open Modal #2</button><br> -->
+
+    <!-- Modal 2 Salads-->
+    <div id="myModal2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Modal #2 Here also!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+        <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Open Modal  #3 </button><br> -->
+
+    <!-- Modal 3 Entrees-->
+    <div id="myModal3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Modal #3 right Here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Open Modal #4</button><br> -->
+
+    <!-- Modal 4 Sides-->
+    <div id="myModal4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Modal #4 Here doing it!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+        <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">Open Modal #5</button><br> -->
+
+    <!-- Modal 5 Dessert-->
+    <div id="myModal5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Modal #5 in the house.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6">Open Modal #6</button> -->
+
+    <!-- Modal 6 Beverages-->
+    <div id="myModal6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Modal #2 Here also in the house!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <img src="./../img/appet.jpg" class="img-responsive" style='z-index:-100;margin-top:40px;margin-left:10px;' alt="" />
+  </div>
+  <div class="col-md-6">
+    <p style="margin-top:40px;margin-right:10px;color:#999">
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+
+      Chilton habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+    </p>
+  </div>
+</div>
+
 
 
 
@@ -91,6 +280,8 @@
     <script src="./../JS/animatedModal.min.js" ></script>
     <!-- animsition : Not working see css-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/js/animsition.min.js" ></script>
+    <!-- Bigslide js -->
+    <script src="./../JS/bigSlide.min.js" ></script>
     <!-- skipper js -->
     <script src="./../JS/skipper.js" ></script>
     <!-- bootstrap js -->
